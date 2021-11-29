@@ -1,0 +1,51 @@
+#nft-container {
+    display: flex;
+}
+
+#nft-img-container {
+    width: 50%;
+    text-align: right;  
+}
+
+#nft-img-container img {
+    width: 15vw;
+    height: 15vw;
+    margin-right: 10vw;
+    border-radius: 1vw;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 1px 3px 0 rgba(0, 0, 0, 0.19);
+    
+}
+
+#nft-img-container div {
+    margin-top: 4vh;
+    margin-right: 6.5vw;
+}
+
+.nft-mint-item-container {
+    display: grid;
+    margin-bottom: 4vh;
+}
+
+.nft-mint-item-container label {
+    margin-bottom: 4px;
+}
+
+.nft-mint-item-container input {
+    padding: 8px;
+    width: 30vw;
+}
+
+.nft-mint-item-container textarea {
+    padding: 8px;
+    height: 20vh;
+}
+
+.nft-mint-item-container button{
+    width: 10vw;
+    padding: 8px;
+    background-color: black;
+    border-radius: 20px;
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+

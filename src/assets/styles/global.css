@@ -1,0 +1,43 @@
+*, :after, :before {
+  box-sizing: border-box;
+}
+#app {
+    font-family: Inter;
+    margin-top: 18%;
+
+  }
+  
+  @media only screen and (min-width: 320px) {
+    #app { margin-top: 43% }
+  }
+  
+  @media only screen and (min-width: 375px) {
+    #app { margin-top: 38% }
+  }
+  
+  @media only screen and (min-width: 425px) {
+    #app { margin-top: 58% }
+  }
+  
+  @media only screen and (min-width: 768px) {
+    #app { margin-top: 32% }
+  }
+  
+  @media only screen and (min-width: 1024px) {
+    #app { margin-top: 17%}
+  }
+  
+  @media only screen and (min-width: 1440px) {
+    #app { margin-top: 13%}
+  }
+  
+  @media only screen and (min-width: 1920px) {
+    #app { margin-top: 11% }
+  }
+
+  .modal-container {
+    z-index: 100;
+  }
+
+
+  

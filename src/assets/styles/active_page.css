@@ -1,0 +1,97 @@
+button {
+  background-color: white;
+  padding: 10px 20px;
+  margin-bottom: 30px;
+  border: black solid 1px;
+  width: 35%;
+}
+a {
+  text-decoration: none;
+  color: black
+}
+
+.title-serie {
+  font-size: 30px;
+}
+
+.texts {
+  width: 45%;
+  flex-wrap: nowrap;
+}
+
+.texts, div.sell-content {
+  justify-content: space-between;
+}
+
+.texts {
+  display: inline-flex;
+  flex-direction: column;
+}
+
+div.sell-content, div.gallery{
+  display: flex;
+  flex-direction: row;
+}
+
+div.gallery {
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  position: relative;
+}
+
+img {
+  width: 450px;
+  height: 462px;
+  box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.2);
+}
+
+div.all-content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+div.sell-content {
+  text-align: left;
+  font-size: 19px;
+  margin-bottom: 15%;
+  margin-top: 1%;
+}
+.serie-description {
+  overflow-wrap: anywhere
+}
+
+@media only screen and (max-width: 640px){
+  img {width: 300px; height: 300px}
+  .texts {width:100%; display: block;}
+  .sell-content {flex-wrap: wrap; width: 100%; margin: 0% 0%}
+}
+
+@media only screen and (min-width: 1024px){
+  img { width: 300px; height: 300px;}
+  .title-serie { font-size: 17px;}
+  .serie-description { font-size : 15px }
+  .all-content { margin: 0% 20% }
+  hr { margin-left: 15px; width: 48%}
+  button { font-size: 10px; width: 40%}
+}
+
+@media only screen and (min-width: 1439px){
+  .all-content { margin: 0% 22%; }
+  img { width: 350px; height: 362px;}
+  hr { margin-left: 30px; width: 50%}
+}
+
+@media only screen and (min-width: 1920px){
+  img { width: 450px; height: 450px;}
+  button { font-size: 15px; width: 35%}
+  hr { margin-left: 60px; width: 52%}
+  .title-serie { font-size: 28px;}
+  .serie-description { font-size : 22px }
+}
+
+@media (min-width: 2560px) {
+  .all-content { width: 55%; margin: 0% 23%}
+  .sell-content { width: 100%}
+}
